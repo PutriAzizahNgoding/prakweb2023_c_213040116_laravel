@@ -8,6 +8,7 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
+     * sebuah method yg akan digunakan schema
      */
     public function up(): void
     {
@@ -23,7 +24,8 @@ return new class extends Migration
     }
 
     /**
-     * Reverse the migrations.
+     * Reverse the migrations.\
+     * untuk menghilangkan schema yang dibuat
      */
     public function down(): void
     {
