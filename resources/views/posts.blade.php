@@ -3,7 +3,7 @@
 
 @section('container')
 
-<h1 class="mb-5">Halaman Blog Posts</h1>
+<h1 class="mb-5">{{$title}}</h1>
 
 <!-- melooping isi array -->
 @foreach ($posts as $post)
